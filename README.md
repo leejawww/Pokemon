@@ -4,7 +4,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone <repo_url>
+    git clone https://github.com/leejawww/Pokemon
     cd pokemon_api
     ```
 

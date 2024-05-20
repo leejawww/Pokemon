@@ -1,0 +1,10 @@
+[tool.pdm]
+name = "pokemon_api"
+version = "0.1.0"
+description = "A FastAPI project for managing Pokemon data."
+python_requires = ">=3.9"
+
+[tool.pdm.dependencies]
+fastapi = ">=0.95.2"
+httpx = ">=0.24.0"
+sqlalchemy = {version = "^2.0.0", extras = ["asyncio"]}

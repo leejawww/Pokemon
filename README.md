@@ -3,18 +3,23 @@
 ## Setup Instructions
 
 1. Clone the repository:
-    git clone https://github.com/leejawww/Pokemon
+   ```bash
+   git clone https://github.com/leejawww/Pokemon
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+    ```bash
     cd pokemon-api
 
-3. Install dependencies:
-    pdm install
+5. Install dependencies:
+    ```bash
+   pdm install
 
-4. Initialize the database:
-    pdm run alembic upgrade head
+7. Initialize the database:
+    ```bash
+   pdm run alembic upgrade head
 
-5. Run the application:
-    pdm run python -m app.entrypoints.main
+9. Run the application:
+    ```bash
+   pdm run python -m app.entrypoints.main
 
-6. Access the API documentation at `http://localhost:8000/docs`.
+11. Access the API documentation at `http://localhost:8000/docs`.
